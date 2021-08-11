@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -o out
 #PBS -e error
-#PBS -l walltime=00:59:59
+#PBS -l walltime=01:59:59
 #PBS -l select=1:ncpus=1
 tpdir=`echo $PBS_JOBID | cut -f 1 -d .`
 tempdir=$HOME/scratch/job$tpdir
