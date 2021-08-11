@@ -8,5 +8,5 @@ tempdir=$HOME/scratch/job$tpdir
 mkdir -p $tempdir
 cd $tempdir
 cp -R $PBS_O_WORKDIR/* .
-mpirun -n 1 vasp_std > log
+mpirun -np 1 vasp_std > log
 mv ../job$tpdir $PBS_O_WORKDIR/.
