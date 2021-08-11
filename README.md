@@ -1,1 +1,1 @@
-# atomisticmodeling
+# Atomistic Modeling of Materials
