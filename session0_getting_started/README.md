@@ -20,9 +20,9 @@ Port    : 22
 ## VESTA
 Download [VESTA](https://jp-minerals.org/vesta/en/download.html) software to create and visualize the crystal structure of a material.
 
-Then copy the text in the block below and paste in a file named POSCAR. You can use sublime text or any other text editors. Now, open the file in VESTA and you should be able to see 2 hydrogen atoms seperated by 1 Å in a box of a=b=c=10Å as shown in the figure below.
+Then copy the text in the block below and paste in a file named POSCAR. You can use sublime text or any other text editors. Now, open the file in VESTA and you should be able to see 2 hydrogen atoms seperated by 1 Å in a box of a=b=c=10 Å as shown in the figure below.
 
-file: **POSCAR**
+file: _POSCAR_
 ```
 New structure
 1.0
