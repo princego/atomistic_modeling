@@ -18,4 +18,22 @@ Port    : 22
 ```
 
 ## VESTA
-Download [VESTA](https://jp-minerals.org/vesta/en/download.html) sofware to create and visualize the crystal structure of a material.
+Download [VESTA](https://jp-minerals.org/vesta/en/download.html) software to create and visualize the crystal structure of a material.
+
+You can copy and paste the below text in the file named POSCAR and open it in VESTA.
+
+file: POSCAR
+```
+New structure
+1.0
+       10.0000000000         0.0000000000         0.0000000000
+        0.0000000000        10.0000000000         0.0000000000
+        0.0000000000         0.0000000000        10.0000000000
+    H
+    2
+Direct
+     0.500000000         0.500000000         0.500000000
+     0.600000000         0.500000000         0.500000000
+```
+
+![POSCAR](POSCAR.png)
