@@ -14,7 +14,7 @@ If you are using windows, install [MobaXterm](https://mobaxterm.mobatek.net/down
 ```
 Username: rollno
 Hostname: aqua.iitm.ac.in
-Port    : 21
+Port    : 22
 ```
 
 ## VESTA
