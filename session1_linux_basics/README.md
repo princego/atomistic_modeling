@@ -24,3 +24,19 @@ Command | Description |
 
 Command | Description |
 --|--|
+Create a new file | `vi filename`	
+To start editing the new file or old file | type `i` then you'll go to inert mode and start editing.
+Write changes to the file |	`:w`
+To quit the file 	| `:q`
+To write changes to the file and quit |	`:wq`
+Save file without making changes 	| `:q!`
+Delete a file |	`rm filename`
+Go to the last line |	`G`
+Go to first line    |	`:1 or gg`
+Jump to line 25     |	`:25 or 25G`
+scroll down one page forward 	| `ctrl+f`
+scroll up one page backward 	| `ctrl+b`
+Delete current line | press `Esc` to come out of editing mode and type `dd`
+Delete 10 lines from the current line |	`10dd`
+Delete 1 to 10 lines/rows 	| `:1,10d`
+Delete from line 10 to the end 	| `:10,$d`
