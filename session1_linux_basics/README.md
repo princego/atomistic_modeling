@@ -21,7 +21,6 @@ Command | Description |
 `mv old_name new_name` | Rename a directory
 
 ## Working with files using vi editor
-
 Command | Description |
 --|--|
 Create a new file | `vi filename`	
