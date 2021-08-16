@@ -3,7 +3,7 @@ In this seesion, we will discuss the following
 - Remotely accessing aqua
 - Working with folders/directories
 - Working with files
-- Transfering files
+- Transferring files
 
 <hr>
 
