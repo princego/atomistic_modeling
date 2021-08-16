@@ -12,11 +12,12 @@ Command | Description |
 `ls` |List contents in the directory
 `pwd` | Present working directory
 `mkdir directoryname` | Create a new directory. Don't use space in between, use _ instead. If you give space 2 directories will be created.
-`cd directoryname` | Go inside a directory
-`cd` or `cd ~/` | Switch to home directory from any directory 	
+`cd` or `cd ~/` | Switch to home directory from any directory
+`cd directoryname` | Go inside a specific directory
+`cd directory/subdirectory/` | Go to subdirectory 
 `cd ..` | Go back to previous directory 	
 `cd ../../` | Go back to two directories 
-`cd directory/subdirectory/` | Go to subdirectory 	
+	
 `mv old_name new_name` | Rename a directory
 
 ## Working with files using vi editor
