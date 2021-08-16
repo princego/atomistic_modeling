@@ -1,4 +1,9 @@
-# Atomistic Modeling of Materials
+# Getting Started
+In this session, we will discus the following
+- Applying for an account on Aqua
+- Setting up VPN access
+- Installing VESTA
+<hr>
 
 ## Getting an account on Aqua
 Go to [hpce.iitm.ac.in](https://hpce.iitm.ac.in). Under `HPCE ACCESS` menu, select `create HPCE A/C`. You have to login using your _LDAP credentials_. You can give your faculty advisor name and email id while filling the form. Your request will go to your faculty advisor's workflow and after his/her approval, your account will be created by hcpe team and you will receive login credentials. Typically it will take 1-2 working days.
