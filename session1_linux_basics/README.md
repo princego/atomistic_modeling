@@ -52,4 +52,4 @@ Copy directories from remote to local computer <br>
 Copy directories from remote computer to another remote computer <br>
 `scp -r user1@hostname1:/fullpath/ user2@hostname2:/fullpath/`
 
-If you are not tranferring directories, but only files, after `scp`, `-r` is not required.
+If you are not transferring directories, but only files, after `scp`, `-r` is not required.
