@@ -1,4 +1,12 @@
 # Linux Basics
+In this seesion, we will discuss the following
+- Remotely accessing aqua
+- Working with folders/directories
+- Working with files
+- Transfering files
+
+<hr>
+
 ## Remote login via ssh
 Enter the below command to login to aqua. In place of roll, you have to enter your roll no, which is your username. 
 ```
