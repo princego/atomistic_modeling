@@ -1,2 +1,3 @@
 # MM5003: Atomistic Modeling of Materials
-- Session 0 contains details regarding getting an account on Aqua and accessing via ssh. 
+- Session 0 contains details of getting an account on Aqua, VPN, and VESTA.
+- Session 1 has the basics of linux.
