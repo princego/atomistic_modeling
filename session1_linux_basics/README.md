@@ -41,7 +41,7 @@ Delete 1 to 10 lines/rows 	| `:1,10d`
 Delete from line 10 to the end 	| `:10,$d`
 
 ## Transfer folders/files
-If you are tranferring files, after `scp`, `-r` is not required. To know the full path, type `pwd` in your terminal.
+To know the full path, type `pwd` in your terminal.
 
 Copy directories from local to remote computer <br>
 `scp -r fullpath/ user@hostname:/fullpath/`
@@ -51,3 +51,5 @@ Copy directories from remote to local computer <br>
 
 Copy directories from remote computer to another remote computer <br>
 `scp -r user1@hostname1:/fullpath/ user2@hostname2:/fullpath/`
+
+If you are not tranferring directories, but only files, after `scp`, `-r` is not required.
