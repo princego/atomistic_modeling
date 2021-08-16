@@ -21,7 +21,7 @@ Command | Description |
 `mv old_name new_name` | Rename a directory
 
 ## Working with files using vi editor
-Command | Description |
+Description  | Command |
 --|--|
 Create a new file | `vi filename`	
 To start editing the new file or old file | type `i` then you'll go to inert mode and start editing.
@@ -39,3 +39,11 @@ Delete current line | press `Esc` to come out of editing mode and type `dd`
 Delete 10 lines from the current line |	`10dd`
 Delete 1 to 10 lines/rows 	| `:1,10d`
 Delete from line 10 to the end 	| `:10,$d`
+
+## Transfer folders/files
+If you are tranferring files, after scp, `-r` is not required. To know the full path, type `pwd` in your terminal.
+Description  | Command |
+--|--|
+Copy directories from local to remote computer 	|`scp -r fullpath/ user@hostname:/fullpath/`
+Copy directories from remote to local computer 	|`scp -r user@hostname:/fullpath/ /fullpath_in_local_computer`
+Copy directories from remote computer to another remote computer |	`scp -r user1@hostname1:/fullpath/ user2@hostname2:/fullpath/`
