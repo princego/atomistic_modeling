@@ -31,4 +31,5 @@ Ni<sub>3</sub>Al has Pm-3m space group (no. 221), which has a simple cubic latti
 
 For Al: (0,0,0) are the atomic postions. <br>
 For Ni: (0,1/2,1/2),	(1/2,0,1/2),	(1/2,1/2,0) are the atomic postions.
+
 ![Ni3Al](Ni3Al.png)
