@@ -1,5 +1,6 @@
 # VESTA
-In this session we'll create crytal structures of Al, MgO, and Ni<sub>3</sub>Al using VESTA.
+In this session we'll create crytal structures of Al, MgO, and Ni<sub>3</sub>Al using VESTA. **Bilbao Crystallographic Server** [https://www.cryst.ehu.es/](https://www.cryst.ehu.es/) will be an useful resource to obtain space group information. click on `Space-group symmetry` -> `WYCKPOS` -> `Standard/Default Setting`. You can also enter space group number.
+
 ## Al
 Al has Fm-3m space group (no. 225), which has a face centered cubic lattice.
 
