@@ -6,4 +6,7 @@ Step 1: Click on `File` -> `New`
 
 Step 2: Select `Unit cell` -> `Cubic` -> `No. 225 Fm-3m` and enter a=`4.04`
 
-Step 3: Select `tructure parameters` -> `New` -> Enter x=0, y=0, z=0  -> `Symbol` -> `Al` -> `OK`
+Step 3: Select `Structure parameters` -> `New` -> Enter `x=0, y=0, z=0`  -> `Symbol` -> `Al` -> `OK` <br>
+Now, you should be able to see all the 4 atoms of Al.
+
+Step4: `File`
