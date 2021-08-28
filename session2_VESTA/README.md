@@ -9,4 +9,8 @@ Step 2: Select `Unit cell` -> `Cubic` -> `No. 225 Fm-3m` and enter a=`4.04`
 Step 3: Select `Structure parameters` -> `New` -> Enter `x=0, y=0, z=0`  -> `Symbol` -> `Al` -> `OK` <br>
 Now, you should be able to see all the 4 atoms of Al.
 
-Step4: Go to `File` -> `Export Data` -> select `VASP (POSCAR;*.vasp)` format -> `Save` -> `Fractional coordinates` and choose `Convert to primitive cell` in the drop down menu
+Step4: Go to `File` -> `Export Data` -> select `VASP (POSCAR;*.vasp)` format -> `Save` -> `Fractional coordinates` and choose `Convert to primitive cell` in the drop down menu.
+
+Step 5: Saving the image in .jpg format. <br>
+`File` -> `Export Raster Image` -> select `JPEG file (*.jpg)` -> Select scale x as `1` -> `OK`. <br>
+You can use scale of 2 or higher for higher image quality.
