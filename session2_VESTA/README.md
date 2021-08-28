@@ -14,5 +14,5 @@ Go to `File` -> `Export Data` -> select `VASP (POSCAR;*.vasp)` format -> `Save` 
 You can open this file in any text editors, like notepad.
 
 Step 5: Saving the image in .jpg format. <br>
-`File` -> `Export Raster Image` -> select `JPEG file (*.jpg)` -> Select scale x as `1` -> `OK`. <br>
+Go to `File` -> `Export Raster Image` -> select `JPEG file (*.jpg)` -> Select scale x as `1` -> `OK`. <br>
 You can use scale of 2 or higher for higher image quality.
