@@ -58,3 +58,13 @@ cp -R $PBS_O_WORKDIR/* .
 mpirun -n 1 path_to_vasp_executable > log
 mv ../job$tpdir $PBS_O_WORKDIR/.
 ```
+
+To submit a job
+```
+qsub job.sh
+```
+
+To see the status of job
+```
+qstat
+```
