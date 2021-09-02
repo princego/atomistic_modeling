@@ -14,6 +14,8 @@ Direct
      0.1000000000         0.000000000         0.000000000
 ```
 
+![N2 Structure](N2_structure.png)
+
 _File: INCAR_
 ```
 Startparameter for this run:
