@@ -70,7 +70,7 @@ Paste copied / deleted text before cursor | `P`
 Undo any changes in the file | `u`
 Search a string in the file (2) | `/string`
 
-(1) "Delete" is the equivalent of "Cut" in vi editor.
+(1) "Delete" is the equivalent of "Cut" in vi editor. <br>
 (2) Navigate through forward or backward through the search using `n` and `N` respectively.
 
 ## Transfer folders/files
