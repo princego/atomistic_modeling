@@ -71,7 +71,7 @@ Undo any changes in the file | `u`
 Search a string in the file (2) | `/string`
 
 (1) "Delete" is the equivalent of "Cut" in vi editor. <br>
-(2) Navigate through forward or backward through the search using `n` and `N` respectively.
+(2) Press `n` to goto next occurance and `N` for previous occurance.
 
 ## Transfer folders/files
 To know the full path, type `pwd` in your terminal.
