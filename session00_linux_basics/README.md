@@ -25,8 +25,22 @@ Command | Description |
 `cd directory/subdirectory/` | Go to subdirectory 
 `cd ..` | Go back to previous directory 	
 `cd ../../` | Go back to two directories 
-	
-`mv old_name new_name` | Rename a directory
+`mv old_name new_name` | Rename a directory or file
+`mv directory new/path/.` | Move a directory to other directory or path
+`rm filename` | Remove or delete a file
+`rm -r directoryname` | Remove or delete a directory
+`cp old_path new_path` | Copy a file
+`cp -r old_path new_path` | Copy a directory
+`cat filename` | Display a file content
+`tac filename` | Display file content but in reverse order
+`cat filename1 filename2` | Display multiple files
+`cat filename1 filename2 > mergedfile` | Merge two or more files into one file
+`cat > filename` | Create and display a new file
+`grep "string" filename` | Search a string in the file
+`file filename or directoryname/*` | Determine the type of a file or all files in a directory
+`man commandname` | Opens a manual for the command
+`echo "text"` | Prints the text in terminal
+`which executablename` | Provides the path to that executable
 
 ## Working with files using vi editor
 Description  | Command |
@@ -43,10 +57,21 @@ Go to first line    |	`:1 or gg`
 Jump to line 25     |	`:25 or 25G`
 scroll down one page forward 	| `ctrl+f`
 scroll up one page backward 	| `ctrl+b`
+Select text | `v`
+Delete selected text | `d`
 Delete current line | press `Esc` to come out of editing mode and type `dd`
 Delete 10 lines from the current line |	`10dd`
 Delete 1 to 10 lines/rows 	| `:1,10d`
 Delete from line 10 to the end 	| `:10,$d`
+Copy selected text | `y`
+Copy current line | `yy`
+Paste copied / deleted text after cursor | `p`
+Paste copied / deleted text before cursor | `P`
+Undo any changes in the file | `u`
+Search a string in the file (2) | `/string`
+
+(1) "Delete" is the equivalent of "Cut" in vi editor.
+(2) Navigate through forward or backward through the search using `n` and `N` respectively.
 
 ## Transfer folders/files
 To know the full path, type `pwd` in your terminal.
