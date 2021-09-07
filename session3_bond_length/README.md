@@ -60,7 +60,7 @@ Use POTCAR file of `N`. POTCAR file is not given here because VASP is a commerci
 
 _File 5: job.sh_
 
-We are requesting 2 hrs of computing time and 1 core. The current calculation will take less than a minute.
+We are requesting 2 hrs of computing time and 1 core.
 ```
 #!/bin/bash
 #PBS -o out
