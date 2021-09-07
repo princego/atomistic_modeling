@@ -89,17 +89,21 @@ qstat
 ```
 
 ## Output files
-After the calculation finishes, you'll see a folder named `jobxx` containing all the input and output files, where xx is the job id. Change the directory to jobxx by entering
+After the calculation finishes, you'll see a folder named `jobxx` containing all the input and output files, where xx is the job id. To see the output files, change the directory to jobxx.
 
 ```
 cd jobxx
 ```
 
-Download `CONTCAR` file to your computer and open the structure in **VESTA** and measure the bond length between 2 N atoms by double clicking on the bond.
+### Measuring the relaxed bond length between two N atoms
+#### Method 1
+Download `CONTCAR` file to your computer and open the structure in **VESTA** and double click on the bond. The bond length will be displayed on the output window at the bottom.
+#### Method 2
+Download `CONTCAR` file to your computer and open the structure in **VESTA** and click on `Distance (d)` located at the extreme left menu. Now select both the atoms by clicking on them. The bond length will be displayed on the output window at the bottom.
 
-Now, note down the total energy corresponding to the bond length from CONTCAR
 
-Open `OUTCAR` file by typing
+### Total energy corresponding to the relaxed bond length
+To see the total energy of the system, Open `OUTCAR` file by typing
 ```
 vi OUTCAR
 ```
