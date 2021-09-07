@@ -56,7 +56,7 @@ M
 
 _File 4: POTCAR_
 
-Use POTCAR file of `N`. POTCAR file is not given here becasue VASP is a commercial code.
+Use POTCAR file of `N`. POTCAR file is not given here because VASP is a commercial code.
 
 _File 5: job.sh_
 ```
