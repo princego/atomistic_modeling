@@ -3,7 +3,7 @@
 ## Input files
 We need 5 input files to get started with `VASP` calculation.
 - `POSCAR` file contains information of initial lattice parameters and atomic positions.
-- `INACR` file has the tags which tells the code, how to run a calculation.
+- `INCAR` file has the tags which tells the code, how to run a calculation.
 - `KPOINTS` file has information on kpoints.
 - `POTCAR` file has pseudo potential information. 
 - `job.sh` requests the computer for number of cores required and time.
