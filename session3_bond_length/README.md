@@ -89,10 +89,10 @@ qstat
 ```
 
 ## Output files
-After the calculation finishes, you'll see a folder named `jobxx` containing all the input and output files, where xx is the job id. To see the output files, change the directory to jobxx.
+After the calculation finishes, you'll see a folder named `jobxy` containing all the input and output files, where xy is the job id. To see the output files, change the directory to jobxy.
 
 ```
-cd jobxx
+cd jobxy
 ```
 
 ### Measuring the relaxed bond length between two N atoms
