@@ -1,6 +1,7 @@
 # Kpoint convergence
 
-In the `KPOINTS` file, line no.4, change `3 3 3` to `6 6 6`, `9 9 9`, and `12 12 12` and check for convergence
+In the `KPOINTS` file, line no.4, change `3 3 3` to `6 6 6`, `9 9 9`, `12 12 12`, and `15 15 15` and check for convergence.
+You can also check for smearing convergence by changing the tag `SIGMA=0.05` in `INCAR` file.
 
 INCAR
 ```
