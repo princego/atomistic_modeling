@@ -7,3 +7,4 @@
 - Session 4 deals with calculating vibrational frequency of CO molecule.
 - Session 5 deals with structure and geometry optimization of Al.
 - Session 6 deals with kpoint convergence and smearing convergence.
+- Session 7 deals with bulk modulus calculation.
