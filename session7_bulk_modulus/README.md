@@ -61,8 +61,10 @@ mpirun -np 1 vasp_std > log
 mv ../job$tpdir $PBS_O_WORKDIR/.
 ```
 
+Now we can calculate energy as a function of volume by changing lattice parameters in compression and extension by 0.5%. Then fit energy as a function of the volume curve to the parabola or you can use Birch-Murnaghan or any equation of state. Using curvature of parabola we can calculate bulk modulus of Al using the formula below.
 
-Calculate energy as a function of volume by changing lattice parameters in compression and extension by 0.5%.
-Fit energy as a function of the volume curve to the parabola.
-Using curvature of parabola calculate the bulk modulus of Al in GPa.
-Calculate percentage deviation from experimental value of 76 GPa.
+<img src="https://render.githubusercontent.com/render/math?math=B=V_o \frac{d^2E}{dV^2} ">
+
+where Vo is the equilibrium volume and
+<img src="https://render.githubusercontent.com/render/math?math=\frac{d^2E}{dV^2} "> is the curvature <br>
+Finally convert the units to GPa.
