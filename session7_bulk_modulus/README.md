@@ -2,7 +2,7 @@
 
 We are considering the primitive cell of Al with k-points 15x15x15 (converged kpoints from session 6) with SIGMA= 0.05 and ISMEAR=1.
 
-INCAR
+file: INCAR
 ```
 Startparameter for this run:
 PREC = Normal
@@ -23,7 +23,7 @@ LWAVE  = F
 LCHARG = F
 ```
 
-KPOINTS
+file: KPOINTS
 ```
 Auto
 0
@@ -32,7 +32,7 @@ M
 0 0 0
 ```
 
-POSCAR
+file: POSCAR
 ```
 New structure
    1.00000000000000
@@ -45,7 +45,7 @@ Direct
 0.0000000000000000 0.0000000000000000 0.0000000000000000
 ```
 
-job.sh
+file: job.sh
 ```
 #!/bin/bash
 #PBS -o out
