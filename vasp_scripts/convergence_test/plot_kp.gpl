@@ -1,0 +1,12 @@
+set encoding utf8
+set terminal pngcairo font "Arial,18"
+set output "conv_kp.png"
+
+set datafile separator ','
+set grid
+set xtics rotate by 27.5 offset -2.5,-1.4
+#set xtics rotate by 45 offset -0.8,-1.8
+set title 'k-point convergence'
+set xlabel 'KPOINTS'
+set ylabel 'Total energy per atom (eV)'
+plot 'conv_kp.csv' u 3:xtic(1) w lp ps 4 pt 6 lw 2 title "Energy"
